@@ -15,21 +15,6 @@ const IpModal = (props) => {
 				setLoadingMessage('');
 				setIpDetails(response.data);
 				props.setIp(response.data);
-				axios({
-					url: '/user/userip',
-					method: 'POST',
-					data: {
-						userId: props.userId,
-						name: props.name ? props.name : '',
-						ip: ipDetails.ip,
-						country: ipDetails.location.country,
-						region: ipDetails.location.region,
-						timezone: ipDetails.location.timezone,
-						isp: ipDetails.isp,
-					},
-				})
-					.then((res) => {})
-					.catch((err) => {});
 			})
 			.catch((error) => {
 				if (error.response !== undefined && error.response.data.code === 422) {

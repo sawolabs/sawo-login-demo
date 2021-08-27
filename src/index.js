@@ -1,18 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import axios from 'axios';
-import './index.css';
-import App from './containers/App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import axios from "axios";
+import "./index.css";
+import App from "./containers/App";
+import reportWebVitals from "./reportWebVitals";
+import { CookiesProvider } from "react-cookie";
 
-axios.defaults.baseURL = 'https://ip-address-tracker-node.herokuapp.com/';
-axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.headers.post["Content-Type"] = "application/json";
 
 ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	document.getElementById('root')
+  <CookiesProvider>
+    <App />
+  </CookiesProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
