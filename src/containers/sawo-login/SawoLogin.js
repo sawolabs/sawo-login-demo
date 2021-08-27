@@ -13,16 +13,14 @@ const SawoLogin = (props) => {
       // should be same as the id of the container created on 3rd step
       containerID: "sawo-container",
       // can be one of 'email' or 'phone_number_sms'
-      identifierType: "phone_number_sms",
+      identifierType: "email",
       // Add the API key copied from 2nd step
       apiKey: process.env.REACT_APP_SAWO_API,
       // Add a callback here to handle the payload sent by sdk
       onSuccess: (payload) => {
         setPayload(payload);
         localStorage.setItem("user_id", payload.user_id);
-        props.setCookie("payload", payload, {
-          path: "/",
-        });
+        props.setCookie("payload", payload);
         props.setLoginStatus(true);
       },
     };
