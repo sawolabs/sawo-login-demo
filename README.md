@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -30,20 +29,6 @@ Users should be able to:
   ![Postman API call](./screenshots/webLanding.png)
 - Web Dashboard Page on Value:
   ![Postman API call](./screenshots/webDataEntered.png)
-
-- #### **MOBILE VIEW**
-
-- Mobile Login View.
-  ![Postman API call](./screenshots/mobileLogin.png)
-- Mobile View.
-  ![Postman API call](./screenshots/mobileLanding.png)
-- Mobile View.
-  ![Postman API call](./screenshots/mobileDataEntered.png)
-
-- #### **POSTMAN CALL**
-
-- Postman call for saving the data.
-  ![Postman API call](./screenshots/postmanScreenshot.png)
 
 
 ## My process
