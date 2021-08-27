@@ -1,0 +1,26 @@
+.heading-search {
+	background: url('../../assets/images/pattern-bg.png') no-repeat;
+	background-size: cover;
+	display: flex;
+	padding: 1em 0;
+	width: 100vw;
+	height: 33vh;
+	position: relative;
+	justify-content: center;
+	flex-direction: row;
+	z-index: 1;
+}
+
+.heading {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.main-section {
+	margin-top: 10px;
+}
+.search {
+	width: 35vw;
+	border-radius: 18px 0 0 18px;
+	margin: 2.5em 0;
+}

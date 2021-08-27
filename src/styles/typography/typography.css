@@ -1,0 +1,23 @@
+.rubik-400-drk-gray {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color: hsl(0, 0%, 17%);
+}
+
+.rubik-700-lgh-gray {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	color: hsl(0, 0%, 59%);
+}
+
+.rubik-700-white {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+
+.rubik-700-drk-gray {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	color: hsl(0, 0%, 17%);
+}

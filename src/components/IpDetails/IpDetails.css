@@ -1,0 +1,91 @@
+.ip-details-main-div {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+	min-width: 75vw;
+	min-height: 14vh;
+	border-radius: 22px;
+	background-color: rgb(255, 255, 255);
+}
+
+.ip-details-main-div:hover {
+	cursor: pointer;
+}
+
+.ip-details-div {
+	display: flex;
+	flex-direction: column;
+	padding: 0 2%;
+	width: 50%;
+}
+
+.right-bar {
+	border-right: 3px solid lightgray;
+}
+
+.ip-details-title {
+	margin: 0;
+	display: flex;
+}
+.ip-details-value {
+	font-size: 1.4em;
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+}
+
+.ip-details-main-div-loading {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+	background-color: hsl(0, 0%, 59%);
+	min-width: 75vw;
+	min-height: 14vh;
+	border-radius: 22px;
+	color: hsl(0, 0%, 17%);
+}
+
+.loading-message {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.ip-details-main-div {
+		display: flex;
+		align-items: center;
+		min-width: 39vw;
+		min-height: 28vh;
+		border-radius: 22px;
+		background-color: rgb(255, 255, 255);
+		justify-content: flex-start;
+		flex-direction: column;
+		align-content: center;
+		padding: 1em;
+	}
+	.right-bar {
+		border-right: none;
+		margin-bottom: 10px;
+	}
+
+	.ip-details-title {
+		font-size: 0.7em;
+		margin: 0 0 2px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.ip-details-value {
+		font-size: 0.9em;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: row;
+	}
+
+	.loading-message {
+		font-size: 1.1em;
+		font-weight: 700;
+	}
+}
