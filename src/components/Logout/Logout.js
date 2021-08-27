@@ -4,6 +4,7 @@ import "./Logout.css";
 const Logout = (props) => {
   const logoutHandler = () => {
     alert("You will be logged out...");
+    localStorage.removeItem("user_id");
     props.removeCookie("payload");
   };
 
