@@ -16,8 +16,6 @@ function App() {
     } else {
       setLoginStatus(false);
     }
-    //write sawo api to compare between local storage userid
-    //and sawo payload
   }, [loginStatus, cookies]);
 
   return (
